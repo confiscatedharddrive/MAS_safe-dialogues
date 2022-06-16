@@ -1,2 +1,5 @@
+# ⚠️ WIP MOD ⚠️
+## This mod is a work in progress and final texts are yet to be decided, as well as expressions for Monika.
+
 # MAS_safe-dialogues
-Some brbs and compliment options for those who suffer from panic attacks/ptsd/other traumas. Designed for use with the Monika After Story mod.
+This submod adds a few new options to confide in Monika if they're having a panic attack, feel unsafe in their homes, or are distressed in any way. Any suggestions on new dialogues are encouraged, as is contibuting by commits or forking! 
