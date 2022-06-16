@@ -22,12 +22,12 @@ $ mas_idle_mailbox.send_idle_cb("chd_brb_panic_callback")
 return "idle"
 
 label chd_brb_panic_callback:
-    if mas_brb.was_idle_for_at_least(datetime.timedelta(minutes=60), "chd_brb_liedown_idle"):
+    if mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=60), "chd_brb_liedown_idle"):
         m "Welcome back!"
         m "Feeling a bit better?"
         m "Let's spend some more time together~"
 
-    elif mas_brb.was_idle_for_at_least(datetime.timedelta(minutes=300), "chd_brb_liedown_idle"):
+    elif mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=300), "chd_brb_liedown_idle"):
         m "You were gone for a while, [player]..."
         m "Is everything okay?{nw}"
         $ _history_list.pop()
