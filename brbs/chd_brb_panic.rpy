@@ -49,4 +49,4 @@ label chd_brb_panic_callback:
                 m "We can even do stuff together, if it helps you."
                 m "I love you, [player]. I'll be here for you, no matter what you choose to do."
 
-return
+return "love"
