@@ -7,7 +7,7 @@ init 5 python:
     addEvent(
         Event(
             persistent.event_database,
-            eventlabel="chd_compliment_calm",
+            eventlabel="chd_compliment_feel_safe",
             category=["mas_compliment"],
             prompt="Thank you for making me feel safe.",
             unlocked=True
@@ -15,7 +15,7 @@ init 5 python:
         code="CMP"
     )
 
-label chd_compliment_calm:
+label chd_compliment_feel_safe:
     m "You make me feel safe too, [player]!"
     m "It can be hard living inside the game."
     m "I'm always afraid I'm going to break something, or that I'll lose you."
