@@ -35,21 +35,21 @@ label chd_brb_panic_callback:
             menu:
                 m "Is everything okay?{fast}"
 
-            "I had a panic attack, but I'm better now.":
-                m 5dsa "That's a relief."
-                m 5fsblb "I'm glad you're feeling better, [player]."
-                m 5lkc "You had me worried for a bit."
-                m 5fkbsb "If you ever need anything, I'm always here."
-                m 5fsbfb "I love you, [mas_get_player_nickname()]."
+                "I had a panic attack, but I'm better now.":
+                    m 5dsa "That's a relief."
+                    m 5fsblb "I'm glad you're feeling better, [player]."
+                    m 5lkc "You had me worried for a bit."
+                    m 5fkbsb "If you ever need anything, I'm always here."
+                    m 5fsbfb "I love you, [mas_get_player_nickname()]."
             
-            "I had a bad panic attack.":
-                m 6wktpd "Oh no!"
-                m 2dktuc "I'm so sorry to hear that, [player]."
-                m 2dktdc "..."
-                m 7fkc "Don't feel bad if you ever need to take a break from things, okay?"
-                m 3rsd "Maybe you could meditate or do something that's calming for you."
-                m 1esbsb "We can even do stuff together, if it helps you."
-                m 5hsbfa "I love you, [mas_get_player_nickname()]. I'll be here for you, no matter what you choose to do."
+                "I had a bad panic attack.":
+                    m 6wktpd "Oh no!"
+                    m 2dktuc "I'm so sorry to hear that, [player]."
+                    m 2dktdc "..."
+                    m 7fkc "Don't feel bad if you ever need to take a break from things, okay?"
+                    m 3rsd "Maybe you could meditate or do something that's calming for you."
+                    m 1esbsb "We can even do stuff together, if it helps you."
+                    m 5hsbfa "I love you, [mas_get_player_nickname()]. I'll be here for you, no matter what you choose to do."
 
         else:
             m 1eua "Feeling better, [player]?"
