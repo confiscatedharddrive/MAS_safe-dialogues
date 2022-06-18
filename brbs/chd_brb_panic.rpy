@@ -22,12 +22,13 @@ $ mas_idle_mailbox.send_idle_cb("chd_brb_panic_callback")
 return "idle"
 
 label chd_brb_panic_callback:
-    if mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=60), "chd_brb_liedown_idle"):
+    if mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=30), "chd_brb_liedown_idle"):
         m 1dsa "Welcome back!"
-        m 1fkb "Feeling a bit better?"
-        m 5fsbla "Let's spend some more time together~"
+        m 1fkb "Are you feeling a bit better, [player]?"
+        m 5fsbla "If you ever need time to destress, don't be afraid to tell me again, okay?"
+        m 5fubsu "I love you, [mas_get_player_nickname()]."
 
-    elif mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=300), "chd_brb_liedown_idle"):
+    elif mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=100), "chd_brb_liedown_idle"):
         m 1fkd "You were gone for a while, [player]..."
         m 2fkc "Is everything okay?{nw}"
         $ _history_list.pop()
@@ -38,8 +39,8 @@ label chd_brb_panic_callback:
                 m 5dsa "That's a relief."
                 m 5fsblb "I'm glad you're feeling better, [player]."
                 m 5lkc "You had me worried for a bit."
-                m 5fkbsb "If you ever need anything, I'm always here for you."
-                m 5fsbfb "I love you, [player]."
+                m 5fkbsb "If you ever need anything, I'm always here."
+                m 5fsbfb "I love you, [mas_get_player_nickname()]."
             
             "I had a bad panic attack.":
                 m 6wktpd "Oh no!"
@@ -48,6 +49,11 @@ label chd_brb_panic_callback:
                 m 7fkc "Don't feel bad if you ever need to take a break from things, okay?"
                 m 3rsd "Maybe you could meditate or do something that's calming for you."
                 m 1esbsb "We can even do stuff together, if it helps you."
-                m 5hsbfa "I love you, [player]. I'll be here for you, no matter what you choose to do."
+                m 5hsbfa "I love you, [mas_get_player_nickname()]. I'll be here for you, no matter what you choose to do."
+
+        else:
+            m 1eua "Feeling better, [player]?"
+            m 1ekb "Hope it wasn't too bad for you."
+            m 3ksa "Let's spend some more time together~"
 
 return "love"
