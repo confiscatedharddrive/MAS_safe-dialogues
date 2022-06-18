@@ -32,7 +32,7 @@ label chd_brb_panic_callback:
         m 2fkc "Is everything okay?{nw}"
         $ _history_list.pop()
         menu:
-            m 2fkc "Is everything okay?{fast}"
+            m "Is everything okay?{fast}"
 
             "I had a panic attack, but I'm better now.":
                 m 5dsa "That's a relief."
