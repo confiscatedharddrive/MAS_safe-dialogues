@@ -22,18 +22,18 @@ $ mas_idle_mailbox.send_idle_cb("chd_brb_panic_callback")
 return "idle"
 
 label chd_brb_panic_callback:
-    if mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=30), "chd_brb_liedown_idle"):
-        m 1dsa "Welcome back!"
-        m 1fkb "Are you feeling a bit better, [player]?"
-        m 5fsbla "If you ever need time to destress, don't be afraid to tell me again, okay?"
-        m 5fubsu "I love you, [mas_get_player_nickname()]."
+        if mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=30), "chd_brb_liedown_idle"):
+            m 1dsa "Welcome back!"
+            m 1fkb "Are you feeling a bit better, [player]?"
+            m 5fsbla "If you ever need time to destress, don't be afraid to tell me again, okay?"
+            m 5fubsu "I love you, [mas_get_player_nickname()]."
 
-    elif mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=100), "chd_brb_liedown_idle"):
-        m 1fkd "You were gone for a while, [player]..."
-        m 2fkc "Is everything okay?{nw}"
-        $ _history_list.pop()
-        menu:
-            m "Is everything okay?{fast}"
+        elif mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=100), "chd_brb_liedown_idle"):
+            m 1fkd "You were gone for a while, [player]..."
+            m 2fkc "Is everything okay?{nw}"
+            $ _history_list.pop()
+            menu:
+                m "Is everything okay?{fast}"
 
             "I had a panic attack, but I'm better now.":
                 m 5dsa "That's a relief."
