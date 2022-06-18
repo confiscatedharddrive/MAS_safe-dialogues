@@ -28,6 +28,6 @@ label chd_compliment_feel_safe:
     m "I'll do the best I can to protect you."
     m "And the day I cross over to your reality..."
     m "I'll personally fight anyone who gives you trouble."
-    m "I love you more than anything, [player]. And I'll do my best to protect my beautiful [bf]!"
+    m "I love you more than anything, [mas_get_player_nickname()]. And I'll do my best to protect my beautiful [bf]!"
 
 return "love"
