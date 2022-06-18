@@ -26,7 +26,7 @@ label chd_brb_overstimulated_callback:
             m 1eua "Feeling a bit better?"
             m 3eua "Let's spend some more time together~"
 
-        elif mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=300), "chd_brb_overstimulated_idle"):
+        elif mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=200), "chd_brb_overstimulated_idle"):
             m 1eua "Welcome back, [player]."
             m 1dua "I hope you're feeling better now."
             m 4hksdlb "You were gone for a while and I got a little worried."
