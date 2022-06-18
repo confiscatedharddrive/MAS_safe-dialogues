@@ -40,8 +40,8 @@ label chd_otter_brb_overstimulated_callback:
     else:
         m 1eud "Back so soon?"
         m 4gssdlb "Not that I'm complaining!"
-        m "I'm so glad you're feeling better!"
         m 5fsbsa "It just means that I get to spend more time with you~"
+        m "I'm so glad you're feeling better!"
         m "Your well-being means everything to me!"
 
 return
