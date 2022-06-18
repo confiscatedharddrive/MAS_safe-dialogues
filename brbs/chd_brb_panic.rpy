@@ -1,4 +1,4 @@
-#I'm having a panic attack, brb submod by confiscatedharddrive for Monika After Story
+#I'm having a panic attack, brb submod by confiscatedharddrive and my-otter-self for Monika After Story
 
 init 5 python:
     addEvent(
