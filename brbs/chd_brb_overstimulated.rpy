@@ -14,7 +14,7 @@ init 5 python:
     )
 
 label chd_brb_overstimulated:
-    m 1eua "That okay, [player]."
+    m 1eua "That's okay, [player]."
     m 3hua "Take as long as you need. I'll be here if you need me."
 
 $ mas_idle_mailbox.send_idle_cb("chd_brb_overstimulated_callback")
