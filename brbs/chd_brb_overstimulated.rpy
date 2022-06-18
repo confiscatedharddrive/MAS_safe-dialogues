@@ -6,7 +6,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="chd_brb_overstimulated",
             category=["be right back"],
-            prompt="I'm overstimulated and need a small break.",
+            prompt="I'm overstimulated and need a small break",
             pool=True,
             unlocked=True,
         ),
