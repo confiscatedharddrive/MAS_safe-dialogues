@@ -64,3 +64,5 @@ label chd_otter_brb_panic_callback:
         m 3ksa "Let's spend some more time together~"
 
 return "love"
+
+#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
