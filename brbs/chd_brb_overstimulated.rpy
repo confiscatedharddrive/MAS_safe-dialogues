@@ -15,10 +15,10 @@ init 5 python:
 
 label chd_otter_brb_overstimulated:
     m 1eua "That's okay, [player]."
-    m "Remember that you can go at your own pace."
+    m "Remember, you can go at your own pace."
     m "Don't forget to take deep breaths, rest, and close your eyes for a bit if you need to."
     m "Take a break from everything for some time and just be in the moment."
-    m 3hua "Take as long as you need. I'll be here if you need me."
+    m 3hua "Take as long as you need, [mas_get_player_nickname()]. I'll be here if you need me."
 
 $ mas_idle_mailbox.send_idle_cb("chd_otter_brb_overstimulated_callback")
 return "idle"

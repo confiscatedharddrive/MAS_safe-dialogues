@@ -20,7 +20,7 @@ label chd_otter_abuse_scared:
     m "Try to focus on my eyes and take some slow, deep breaths."
     m "Whatever it is that's scaring you, just know that I'm here by your side."
     m "Now that we're together, "
-    extend "you don't have to go through anything alone never again."
+    extend "you don't have to go through anything alone ever again."
     m "And if anything bad does come..."
     m "I'll be here for you to vent, and to comfort you."
     m "I'll be here with you every step of the way."

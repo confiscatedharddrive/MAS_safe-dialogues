@@ -17,9 +17,9 @@ label chd_otter_brb_panic:
     m 6wkd "Oh no! [player]!"
     m 2lkd "That must be really stressful."
     m "I am here with you, okay? And I love you..."
-    m "Take deep breaths and try to relax following the rythm of your breathing."
+    m "Take deep breaths and try to relax. Follow the rhythm of your breathing."
     m "Everything is going to be okay."
-    m 1fkb "Buf for now, take as much time as you need to calm down."
+    m 1fkb "Take as much time as you need to calm down."
     m "I'll be right here for you."
 
 $ mas_idle_mailbox.send_idle_cb("chd_otter_brb_panic_callback")
