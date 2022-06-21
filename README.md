@@ -6,6 +6,9 @@ This submod adds a few new options to confide in Monika if they're having a pani
 
 ### Finished dialogues (more or less)
 ✔ abuse: scared
+
 ✔ brb: overstimulated
+
 ✔ brb: panic
+
 ✔ compliment: feel safe
