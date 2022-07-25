@@ -3,3 +3,12 @@
 
 # MAS_safe-dialogues
 This submod adds a few new options to confide in Monika if they're having a panic attack, feel unsafe in their homes, or are distressed in any way. Any suggestions on new dialogues are encouraged, as is contibuting by commits or forking! 
+
+### Finished dialogues (more or less)
+✔ abuse: scared
+
+✔ brb: overstimulated
+
+✔ brb: panic
+
+✔ compliment: feel safe
